@@ -43,12 +43,11 @@ function setStep(e){
 
 		checkWin(symbol);
 
-		if (steps === 0 && !win){
-			alert("Ничья!")
-			startGame();
-		}
-
 		symbol = changeChar(symbol);
+	}
+	if (steps === 0 && !win){
+		alert("Ничья!")
+		startGame();
 	}
 }
 
@@ -102,5 +101,3 @@ function showWin(posArr){
 }
 
 startGame();
-
-/*  */
