@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tic-tac-toe</title>
-	<style>
-		body {
-			margin: 0;
-			height: 100vh;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			font: 40px sans-serif;
-		}
-		.board{
-			display: grid;
-			grid-template-columns: repeat(3,60px);
-			grid-template-rows: repeat(3, 60px);
-			grid-gap: 10px;
-		}
-		.square{
-			box-shadow: 0 0 5px 0 #0006;
-			border-radius: 8px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			cursor: pointer;
-		}
-		.win{
-			background-color: greenyellow;
-			color: white;
-		}
-	</style>
-</head>
-<body>
-	<div class="board"></div>
-	<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-tac-toe</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: 40px sans-serif;
+      }
+      .board {
+        display: grid;
+        grid-template-columns: repeat(3, 60px);
+        grid-template-rows: repeat(3, 60px);
+        grid-gap: 10px;
+      }
+      .square {
+        box-shadow: 0 0 5px 0 #0006;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+      .win {
+        background-color: greenyellow;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="board"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
-
-  
